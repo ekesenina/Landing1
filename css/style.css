@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(../font/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Nunito Sans-italic";
+    src: url(../font/NunitoSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Yeseva One";
+    src: url(../font/YesevaOne-Regular.ttf);
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Nunito Sans';
+}
+
+.content{
+    max-width: 1256px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #131313;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.phone{
+    font-size: 11px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+
+.button{
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border-style: none;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Nunito Sans-italic";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.button_step1{
+    padding: 19px 41px;
+    margin-right: 20px;
+}
+.transparent_button{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.header-navigation{
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation_item{
+    margin-right: 47px;
+}
+.header-navigation_item a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+.header-navigation_item a:hover{
+    color: #E3B873;
+}
+
+.background{
+    position: relative;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    height: 707px;
+}
+
+.background_content{
+    position: relative;
+    z-index: 1;
+    padding-top: 194px;
+    padding-left: 134px;
+}
+
+.background_overlay{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.title{
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.title_step1{
+    padding-bottom: 19px;
+}
+
+.paragraph{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.paragraph_step1{
+    padding-bottom: 41px;
+}
+
+.orange_text{
+    color: #E3B873;
+}
