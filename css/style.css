@@ -81,6 +81,11 @@ header{
     background-color: rgba(0, 0, 0, 0);
 }
 
+.button_submit{
+    width: 200px;
+    height: 51px;
+}
+
 .header-navigation{
     list-style: none;
     display: flex;
@@ -141,18 +146,44 @@ header{
     font-weight: 400;
     font-size: 27px;
     line-height: 37px;
-    letter-spacing: -0.07em;
     text-transform: uppercase;
 }
 
 .subtitle_projects{
     margin-bottom: 34px;
+    letter-spacing: -0.07em;
+}
+
+.subtitle_repair_cost{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .project_options{
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0;
+}
+
+.subtitle_online_control{
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.subtitle_types_of_repair{
+    font-size: 20px;
+    line-height: 28px;
+    color: #181818;
+    margin-bottom: 13px;
+}
+
+.subtitle_repair_type{
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
 }
 
 .paragraph{
@@ -178,6 +209,13 @@ header{
     line-height: 21px;
 }
 
+.paragraph_online_control{
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #363636;
+}
+
 .orange_text{
     color: #E3B873;
 }
@@ -192,6 +230,7 @@ header{
     flex-wrap: wrap;
     flex-direction: column;
     padding-top: 107px;
+    padding-bottom: 416px;
 }
 
 .projects_nav{
@@ -224,18 +263,195 @@ header{
 }
 
 .div_project_options{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
 .completed_projects_info{
     max-width: 442px;
+    position: relative;
 }
 
 .project_options_item{
     margin-right: 35px;
     margin-bottom: 34px;
+}
+
+.slider{
+    position: absolute;
+    bottom: 0px;
+}
+.left_arrow{
+    margin-right: 30px;
+}
+.dot{
+    margin-right: 17px;
+}
+.right_arrow{
+    margin-left: 30px;
+}
+
+.step3{
+    margin-top: -324px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camera_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+.camera{
+    margin: 0px 9px;
+}
+
+.video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
+    margin-bottom: 62px;
+}
+
+.play{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: #E3B873;
+    box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+}
+
+.form_online_control{
+    width: 769px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form_online_control_checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 91px;
+    margin-bottom: 75px;
+}
+
+.form_label{
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+    transform: rotate(-0.07deg);
+}
+
+.form_item{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.form_input{
+    padding: 0px 0px 8px 0px;
+    border: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+.form_input:focus{
+    outline: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.7);;
+}
+
+.label_checkbox {
+    cursor: pointer;
+    margin-top: 39px;
+  }
+.checkbox{
+    display: none;
+  }
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+.checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+
+.step4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.tools_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tools{
+    margin: 0px 13px;
+}
+
+.types_of_repair{
+    display: flex;
+    justify-content: space-around;
+}
+
+.repair_type{
+    margin: 30px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_repair_type{
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.repair_type_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    margin-top: -127px;
+    background: #FFFFFF;
+    padding: 25px 32px 49px 31px;
+    width: 330px;
+    height: 286px;
+}
+
+.repair_cost{
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 228px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -26px 0px 0px 32px;
+    align-self: flex-start;
 }
