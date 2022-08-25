@@ -351,9 +351,6 @@ header{
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
     transform: rotate(-0.07deg);
-}
-
-.form_item{
     margin-right: 50px;
     cursor: pointer;
 }
@@ -452,6 +449,139 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -26px 0px 0px 32px;
+    margin: -26px 0px 124px 32px;
     align-self: flex-start;
+}
+
+.advantages_form{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.advantages_background{
+    align-self: flex-start;
+    min-width: 100vw;
+    z-index: -1;
+    margin-top: -589px;
+    height: 645px;
+}
+
+.advantages{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 206px;
+}
+
+.advantage_item{
+    display: flex;
+    align-items: center;
+}
+
+.advantage_item_number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.subtitle_advantage_item_number{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.advantage_paragraf{
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.request_form{
+    background-color: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);;
+    width: 506px;
+    height: 509px;
+    padding-bottom: 27px;
+}
+
+.request_form_paragraph{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 28px;
+    padding-bottom: 39px;
+}
+
+.form_input_request{
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    width: 408px;
+    padding: 0px 0px 3px 0px;
+}
+
+.form_label_request{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 48px;
+}
+
+.request_inputs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 49px;
+}
+
+.label_checkbox_request{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:23px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: -30px;
+}
+
+.button_request{
+    width: 213px;
+    height: 51px;
+    margin-left: 195px;
+    margin-top: 32px;
+    margin-bottom: 27px;
+}
+
+.pig_icon{
+    width: 72px;
+    height: 72px;
+    background: #E3B873;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    border-radius: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note_pig{
+    display: flex;
+    align-items: center;
+    margin-left: 850px;
+    margin-top: -20px;
+}
+
+.paragraph_note_pig{
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 25px;
 }
