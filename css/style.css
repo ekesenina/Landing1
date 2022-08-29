@@ -371,6 +371,10 @@ header{
     outline: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.7);;
 }
+.form_input:focus::-webkit-input-placeholder { color:transparent; }
+.form_input:focus:-moz-placeholder { color:transparent; } 
+.form_input:focus::-moz-placeholder { color:transparent; } 
+.form_input:focus:-ms-input-placeholder { color:transparent; } 
 
 .label_checkbox {
     cursor: pointer;
@@ -824,6 +828,10 @@ header{
     outline: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
 }
+.form_input_questions:focus::-webkit-input-placeholder { color:transparent; }
+.form_input_questions:focus:-moz-placeholder { color:transparent; } 
+.form_input_questions:focus::-moz-placeholder { color:transparent; } 
+.form_input_questions:focus:-ms-input-placeholder { color:transparent; } 
 
 .form_input_questions_question{
     width: 517px;
