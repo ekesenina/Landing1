@@ -625,7 +625,9 @@ header{
     z-index: 1;
     position: relative;
 }
-
+.step5_img{
+    display: none;
+}
 .column{
     display: flex;
     flex-direction: column;
