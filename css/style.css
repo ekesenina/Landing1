@@ -26,6 +26,10 @@ body{
     align-items: center;
 }
 
+main{
+    max-width: 100vw;
+}
+
 .content{
     max-width: 1256px;
     margin: 0 auto;
@@ -89,6 +93,9 @@ header{
     width: 200px;
     height: 51px;
     margin-bottom: 35px;
+}
+.button_submit_mobile{
+    display: none;
 }
 
 .header-navigation{
@@ -189,6 +196,7 @@ header{
     font-size: 18px;
     line-height: 25px;
     color: #363636;
+    text-transform: none;
 }
 
 .paragraph{
@@ -201,6 +209,7 @@ header{
 }
 .paragraph_step1{
     padding-bottom: 41px;
+    max-width: 492px;
 }
 
 .paragraph_projects{
@@ -219,6 +228,7 @@ header{
     line-height: 36px;
     text-align: center;
     color: #363636;
+    width: 652px;
 }
 
 .orange_text{
@@ -287,6 +297,11 @@ header{
     position: absolute;
     bottom: 0px;
 }
+
+.completed_projects_img_mobile{
+    display: none;
+}
+
 .left_arrow{
     margin-right: 30px;
 }

@@ -1,0 +1,274 @@
+.content{
+    max-width: 340px;
+    margin: 0 auto;
+}
+.background_black_mobile{
+    background-color: #131313;
+}
+.header-content{
+    height: 63px;
+}
+.header-navigation{
+    display: none;
+}
+.button_Request_a_call{
+    display: none;
+}
+.phone{
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.background{
+    height: 476px;
+    min-width: 100vw;
+}
+.background_content{
+    padding: 85px 0px 0px 0px;
+}
+.title{
+    font-size: 23px;
+    line-height: 31px;
+    padding-bottom: 16px;
+}
+.paragraph{
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 339px;
+}
+.paragraph_step1{
+    padding-bottom: 41px;
+}
+.button{
+    width: 339px;
+    outline: 0;
+    border-style: none;
+    padding: 19px 0px;
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+.button_step1{
+    padding: 19px 41px;
+    margin-right: 0px;
+}
+.content_projects{
+    padding-top: 36px;
+    padding-bottom: 58px;
+}
+.transparent_button{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 26px 0px 0px 0px;
+}
+.projects_nav{
+    display: none;
+}
+.completed_projects{
+    display: flex;
+    flex-direction: column;
+}
+.subtitle_projects{
+    margin-bottom: 22px;
+    text-align: center;
+}
+.paragraph_projects{
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 36px;
+    width: 311px;
+    height: 86px;
+}
+.completed_projects_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider{
+    display: none;
+}
+.completed_projects_img_mobile{
+    display: block;
+    margin-bottom: 37px;
+}
+.completed_projects_img{
+    display: none;
+}
+.project_options{
+    font-size: 14px;
+    line-height: 19px;
+}
+.project_options_item{
+    margin-right: 61px;
+}
+.subtitle_online_control{
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
+    margin-bottom: 28px;
+    margin-top: 40px;
+    width: 340px;
+    height: 207px;
+}
+.video_img{
+    width: 340px;
+    height: 207px;
+}
+.paragraph_online_control{
+    font-size: 11px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+.step3{
+    height: 918px;
+}
+.form_online_control{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form_label{
+    color: rgba(255, 255, 255, 0.5);
+}
+.form_label_name{
+    margin: 0px 0px 63px 0px;
+}
+.form_input{
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+}
+.form_input:focus{
+    outline: none;
+    border-bottom: 1px solid #FFFFFF;;
+}
+.button_submit{
+    display: none;
+}
+.button_submit_mobile{
+    display: block;
+    margin-top: 62px;
+}
+.text_checkbox{
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.label_checkbox{
+    margin-top: 28px;
+}
+.step4_6{
+    margin-top: 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle_types_of_repair{
+    font-size: 22px;
+    line-height: 30px;
+    color: #181818;
+    margin-bottom: 17px;
+}
+.types_of_repair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tools_icon{
+    margin-bottom: 40px;
+}
+.repair_type_img{
+    width: 340px;
+}
+.repair_type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.repair_type_info{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-start;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    margin-top: -127px;
+    background: #FFFFFF;
+    padding: 21px 41px 37px 31px;
+    width: 270px;
+    height: 241px;
+}
+.list_repair_type{
+    line-height: 22px;
+    width: 198px;
+    height: 152px;
+    padding: 0;
+    margin-left: 15px
+}
+.repair_cost{
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -20px 0px 59px 0px;
+    align-self: flex-start;
+}
+.subtitle_repair_cost{
+    font-size: 15px;
+    line-height: 21px;
+}
+.advantages_form{
+    display: none;
+}
+.advantages_background{
+    display: none;
+}
+.note_pig{
+    display: none;
+}
+.background_overlay_step5{
+    display: none;
+}
+.step5{
+    display: flex;
+    background-color: #131313;
+    background-image: none;
+    margin-top: 231px;
+    height: 864px;
+    margin-bottom: 0px;
+}
+.content_step5{
+    margin-top: -211px;
+}
+.step5_img{
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    display: none;
+}
+.step6_mobile{
+    display: none;
+}
+.review_background{
+    display: none;
+}

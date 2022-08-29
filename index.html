@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="mobile-style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="css/mobile-style.css">
 </head>
 <body>
     <header>
@@ -23,7 +23,7 @@
                 </ul>
             </nav>
             <a href="tel:+7 (928) 768-32-39" class="phone">+7 (928) 768-32-39</a>
-            <button class="button">Request a call</button>
+            <button class="button button_Request_a_call">Request a call</button>
        </div>
     </header>
     <main>
@@ -31,8 +31,8 @@
             <div class="content background_content">
                 <h1 class="title">Turnkey Repair in the <br> city of <span class="orange_text">Rostov-on-Don</span></h1>
                 <p class="paragraph paragraph_step1">
-                    Get ready-made turnkey repairs on time <br>
-                    with work time saving up to 45 days and 20% from <br>
+                    Get ready-made turnkey repairs on time 
+                    with work time saving up to 45 days and 20% from 
                     cost of materials due to the organization of work
                 </p>
                 <button class="button button_step1">CALCULATE THE COST</button>
@@ -40,7 +40,7 @@
             </div>
             <div class="background_overlay"></div>
         </section>
-        <section class="background_black">
+        <section class="background_black background_black_mobile">
             <div class="content content_projects">
                 <ul class="projects_nav">
                     <li class="projects_nav_item"><a href="#">Rostov-on-Don, Admiral</a></li>
@@ -51,10 +51,13 @@
                     <div class="completed_projects_info">
                         <h2 class="subtitle subtitle_projects orange_text ">Completed <br>projects</h2>
                         <p class="paragraph paragraph_projects">
-                            Only a small part of the work performed by our company is presented <br>
-                            on the site. For 14 years on in the construction <br>
+                            Only a small part of the work performed by our company is presented
+                            on the site. For 14 years on in the construction
                             market we have made happy more than 1000 families
                         </p>
+                        <div>
+                            <img src="img/completed_projects_img_mobile.jpg" alt=".jpg" class="completed_projects_img_mobile">
+                        </div>
                         <div class="div_project_options">
                             <div class="project_options_item">
                                 <h3 class="subtitle project_options orange_text">City:</h3>
@@ -82,12 +85,12 @@
                         </div>
                     </div>
                     <div>
-                    <img src="img/completed_projects.jpg" alt=".jpg">
+                        <img src="img/completed_projects.jpg" alt=".jpg" class="completed_projects_img">
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="background_black_mobile">
             <div class="content step3">
                 <h3 class="subtitle subtitle_online_control">online control</h3>
                 <div class="camera_icon">
@@ -96,19 +99,19 @@
                     <img src="icon/line.svg" alt=".icon">
                 </div>
                 <div class="video">
-                    <img src="img/video.jpg" alt=".video">
+                    <img src="img/video.jpg" alt=".video" class="video_img">
                     <div class="background_overlay"></div>
                     <div class="play"><img src="icon/play.svg" alt=".icon"></div>
                 </div>
                 <div><img src="icon/hr.svg" alt="ine"></div>
                 <p class="paragraph paragraph_online_control">
-                    At each facility, a camera is installed that broadcasts the progress of work on the <br>
-                    clock. At any time, you can go to our website and monitor the progress of work in <br>
-                    your apartment. You can watch the live broadcast from one of our facilities! <br>
+                    At each facility, a camera is installed that broadcasts the progress of work on the 
+                    clock. At any time, you can go to our website and monitor the progress of work in 
+                    your apartment. You can watch the live broadcast from one of our facilities! 
                     Leave a request below and you will receive a link to the broadcast.</p>
                 <form action="" class="form_online_control_checkbox">
                     <div class="form_online_control">
-                        <label for="Name" class="form_label">Name <br>
+                        <label for="Name" class="form_label form_label_name">Name <br>
                             <input type="text" placeholder="What is your name:" class="form_input">
                         </label>
                         <label for="Phone" class="form_label">Phone <br>
@@ -121,6 +124,7 @@
                         <span class="fake"></span>
                         <span class="text_checkbox">I agree to the processing of personal data.</span>
                     </label>
+                    <button class="button button_submit button_submit_mobile">Submit</button>
                 </form>
             </div>
         </section>
@@ -134,7 +138,7 @@
                 </div>
                 <div class="types_of_repair">
                     <div class="repair_type">
-                        <img src="img/repair_type_1.jpg" alt="">
+                        <img src="img/repair_type_1.jpg" alt="" class="repair_type_img">
                         <div class="repair_type_info">
                             <h4 class="subtitle subtitle_repair_type">Redecorating</h4>
                             <ul class="list_repair_type">
@@ -152,7 +156,7 @@
                         </div>
                     </div>
                     <div class="repair_type">
-                        <img src="img/repair_type_2.jpg" alt="">
+                        <img src="img/repair_type_2.jpg" alt="" class="repair_type_img">
                         <div class="repair_type_info">
                             <h4 class="subtitle subtitle_repair_type">Overhaul</h4>
                             <ul class="list_repair_type">
@@ -170,7 +174,7 @@
                         </div>
                     </div>
                     <div class="repair_type">
-                        <img src="img/repair_type_3.jpg" alt="">
+                        <img src="img/repair_type_3.jpg" alt="" class="repair_type_img">
                         <div class="repair_type_info">
                             <h4 class="subtitle subtitle_repair_type">Designer Repair</h4>
                             <ul class="list_repair_type">
@@ -249,6 +253,10 @@
         </section>
         <section class="background step5">
             <div class="content content_step5">
+                <div class="step5_img">
+                    <h3 class="subtitle orange_text">We realize your <br>wildest fantasies</h3>
+                    <img src="img/step5.jpg" alt="img">
+                </div>
                 <div class="column step5_styles_div">
                     <h3 class="subtitle orange_text">We realize your <br>wildest fantasies</h3>
                     <ul class="step5_styles">
@@ -277,7 +285,7 @@
             <div class="background_overlay background_overlay_step5"></div>
         </section>
         <section>
-            <div class="content step4_6">
+            <div class="content step4_6 step6_mobile">
                 <h3 class="subtitle subtitle_types_of_repair">our clients</h3>
                 <div class="tools_icon">
                     <img src="icon/line.svg" alt=".icon">
