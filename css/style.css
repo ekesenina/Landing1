@@ -122,7 +122,6 @@ header{
     background-image: url(../img/background.jpg);
     background-size: cover;
     height: 707px;
-    width: 100vw;
 }
 
 .background_content{
