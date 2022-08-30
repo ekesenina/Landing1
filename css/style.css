@@ -24,11 +24,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
-/* main{
+main{
     max-width: 100vw;
-} */
+}
 
 .content{
     max-width: 1256px;
