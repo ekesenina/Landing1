@@ -104,6 +104,7 @@
 .project_options{
     font-size: 14px;
     line-height: 19px;
+    text-align: start;
 }
 .project_options_item{
     margin-right: 61px;
