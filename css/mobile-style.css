@@ -32,6 +32,9 @@
     line-height: 31px;
     padding-bottom: 16px;
 }
+.subtitle{
+    text-align: center;
+}
 .paragraph{
     font-size: 14px;
     line-height: 19px;
@@ -153,6 +156,7 @@
     line-height: 19px;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0);
+    width: 340px;
 }
 .form_input:focus{
     outline: none;
@@ -250,18 +254,40 @@
 }
 .step5{
     display: flex;
-    background-color: #131313;
+    background-color: #181818;
     background-image: none;
     margin-top: 231px;
-    height: 864px;
+    height: 173px;
     margin-bottom: 0px;
 }
 .content_step5{
     margin-top: -211px;
 }
-.step5_img{
+.step5_block{
     display: flex;
     flex-direction: column;
+}
+.step5_img{
+    margin-top: 24px;
+}
+.step5_slider_buttons{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -139px;
+}
+.step5_circle:first-child{
+    margin-right: 241px;
+    margin-left: 14px;
+}
+.step5_circle{
+    background: #E3B873;
+    box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .column{
     display: none;
@@ -270,5 +296,84 @@
     display: none;
 }
 .review_background{
+    display: none;
+}
+.step7{
+    background-image: none;
+    background-color: #181818;
+    height: 1065px;
+}
+.content_start{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle_questions{
+    padding: 0px 0px 52px 0px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+.questions{
+    width: 340px;
+    margin-bottom: 0px;
+    order: 1;
+}
+.form_questions{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.form_label_questions{
+    margin-right: 0px;
+    margin-bottom: 63px;
+}
+.form_label_questions:first-child{
+    margin-right: 0px;
+}
+.form_label_questions_question{
+    margin-bottom: 23px;
+}
+.form_input_questions{
+    width: 340px;
+}
+.form_input_questions_question{
+    width: 340px;
+}
+.label_checkbox_questions{
+    margin: 0px 0px 5px 0px;
+}
+.contacts_block{
+    order: 3;
+}
+.map{
+    order: 2;
+}
+.map_img_desktop{
+    display: none;
+}
+.map_img_mobile{
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 42px;
+}
+.subtitle_adress{
+    font-size: 18px;
+    line-height: 25px;
+    width: 306px;
+}
+.contacts{
+    margin-top: 23px;
+    margin-bottom: 0;
+}
+.mail_icon{
+    margin-right: 20px;
+    width: 39px;
+}
+.inst{
+    width: 39px;
+}
+footer{
     display: none;
 }

@@ -625,7 +625,7 @@ header{
     z-index: 1;
     position: relative;
 }
-.step5_img{
+.step5_block{
     display: none;
 }
 .column{
@@ -866,6 +866,7 @@ header{
     font-size: 20px;
     line-height: 28px;
     text-align: center;
+    width: 589px;
 }
 
 .contacts{
@@ -877,6 +878,10 @@ header{
 
 .mail_icon{
     margin-right: 15px;
+}
+
+.map_img_mobile{
+    display: none;
 }
 
 footer{
