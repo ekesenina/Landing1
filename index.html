@@ -14,20 +14,20 @@
             <div class="logo">IC "Repair Design Project"</div> 
             <nav>
                 <ul class="header-navigation">
-                    <li class="header-navigation_item"><a href="#">HOME</a></li>
-                    <li class="header-navigation_item"><a href="#">PROJECTS</a></li>
-                    <li class="header-navigation_item"><a href="#">MEASUREMENT</a></li>
-                    <li class="header-navigation_item"><a href="#">TEAM</a></li>
-                    <li class="header-navigation_item"><a href="#">REVIEWS</a></li>
-                    <li class="header-navigation_item"><a href="#">CONTACTS</a></li>
+                    <li class="header-navigation_item"><a href="#home">HOME</a></li>
+                    <li class="header-navigation_item"><a href="#projects">PROJECTS</a></li>
+                    <li class="header-navigation_item"><a href="#measurement">MEASUREMENT</a></li>
+                    <li class="header-navigation_item"><a href="#team">TEAM</a></li>
+                    <li class="header-navigation_item"><a href="#reviews">REVIEWS</a></li>
+                    <li class="header-navigation_item"><a href="#contacts">CONTACTS</a></li>
                 </ul>
             </nav>
             <a href="tel:+7 (928) 768-32-39" class="phone">+7 (928) 768-32-39</a>
-            <button class="button button_Request_a_call">Request a call</button>
+            <button class="button button_Request_a_call" form="Request_a_call">Request a call</button>
        </div>
     </header>
     <main>
-        <section class="background">
+        <section class="background" id="home">
             <div class="content background_content">
                 <h1 class="title">Turnkey Repair in the <br> city of <span class="orange_text">Rostov-on-Don</span></h1>
                 <p class="paragraph paragraph_step1">
@@ -35,12 +35,12 @@
                     with work time saving up to 45 days and 20% from 
                     cost of materials due to the organization of work
                 </p>
-                <button class="button button_step1">CALCULATE THE COST</button>
-                <button class="button button_step1 transparent_button">SUBMIT YOUR APPLICATION</button>
+                <button class="button button_step1" form="CALCULATE">CALCULATE THE COST</button>
+                <button class="button button_step1 transparent_button" form="SUBMIT_YOUR_APPLICATION">SUBMIT YOUR APPLICATION</button>
             </div>
             <div class="background_overlay"></div>
         </section>
-        <section class="background_black background_black_mobile">
+        <section class="background_black background_black_mobile" id="projects">
             <div class="content content_projects">
                 <ul class="projects_nav">
                     <li class="projects_nav_item"><a href="#">Rostov-on-Don, Admiral</a></li>
@@ -109,7 +109,7 @@
                     clock. At any time, you can go to our website and monitor the progress of work in 
                     your apartment. You can watch the live broadcast from one of our facilities! 
                     Leave a request below and you will receive a link to the broadcast.</p>
-                <form action="" class="form_online_control_checkbox">
+                <form action="#CALCULATE" class="form_online_control_checkbox" id="CALCULATE">
                     <div class="form_online_control">
                         <label for="Name" class="form_label form_label_name">Name <br>
                             <input type="text" placeholder="What is your name:" class="form_input">
@@ -117,7 +117,7 @@
                         <label for="Phone" class="form_label">Phone <br>
                             <input type="text" placeholder="Your phone number:" class="form_input">
                         </label>
-                        <button class="button button_submit">Submit</button>
+                        <button type="submit" class="button button_submit">Submit</button>
                     </div>
                     <label class="label_checkbox">
                         <input type="checkbox" class="checkbox" >
@@ -128,7 +128,7 @@
                 </form>
             </div>
         </section>
-        <section>
+        <section id="measurement">
             <div class="content step4_6">
                 <h3 class="subtitle subtitle_types_of_repair">TYPES OF REPAIR</h3>
                 <div class="tools_icon">
@@ -219,7 +219,7 @@
                             <p class="paragraf advantage_paragraf">Get a cost estimate and <br> the timing of your future repairs</p>
                         </div>
                     </div>
-                    <form class="request_form">
+                    <form action="#SUBMIT_YOUR_APPLICATION" class="request_form" id="SUBMIT_YOUR_APPLICATION">
                         <p class="paragraph request_form_paragraph">Leave a request for free <br> departure of the measurer</p>
                         <div class="request_inputs">
                             <label for="Name" class="form_label form_label_request">Name <br>
@@ -236,7 +236,7 @@
                                 <span class="fake"></span>
                                 <span class="text_checkbox">I agree to the processing of personal data.</span>
                             </label>
-                            <button class="button button_request">Call the measurer</button>
+                            <button type="submit" class="button button_request">Call the measurer</button>
                         </div>
                     </form>
                 </div>
@@ -251,7 +251,7 @@
                 <p class="paragraph paragraph_note_pig">Help save 10 - 20% of the <br> cost of materials</p>
             </div>
         </section>
-        <section class="background step5">
+        <section class="background step5" id="team">
             <div class="content content_step5">
                 <div class="step5_block">
                     <h3 class="subtitle orange_text">We realize your <br>wildest fantasies</h3>
@@ -292,7 +292,7 @@
             </div>
             <div class="background_overlay background_overlay_step5"></div>
         </section>
-        <section>
+        <section id="reviews">
             <div class="content step4_6 step6_mobile">
                 <h3 class="subtitle subtitle_types_of_repair">our clients</h3>
                 <div class="tools_icon">
@@ -381,10 +381,10 @@
                 <img src="icon/background_review.svg" alt="svg" class="review_background_img2">
             </div>
         </section>
-        <section class="background step7">
+        <section class="background step7" id="contacts">
             <div class="content content_step7">
                 <div class="content_start">
-                        <form action="" class="questions">
+                        <form action="#Request_a_call" class="questions" id="Request_a_call">
                             <h3 class="subtitle subtitle_online_control subtitle_questions">have any questions?</h3>
                             <div class="all_questions">
                                 <div class="form_questions">
@@ -396,7 +396,7 @@
                                     </label>
                                 </div>
                                 <div class="form_questions">
-                                    <label for="Name" class="form_label_questions form_label_questions_question">Question <br>
+                                    <label for="question" class="form_label_questions form_label_questions_question">Question <br>
                                         <input type="text" placeholder="I want to know:" class="form_input_questions form_input_questions_question">
                                     </label>
                                 </div>
@@ -406,14 +406,14 @@
                                 <span class="fake"></span>
                                 <span class="text_checkbox">I agree to the processing of personal data.</span>
                             </label>
-                            <button class="button button_submit">Submit</button>
-                            <button class="button button_submit button_submit_mobile">Submit</button>
+                            <button class="button button_submit" type="submit">Submit</button>
+                            <button class="button button_submit button_submit_mobile" type="submit">Submit</button>
                         </form>
                     <div class="contacts_block">
                         <h3 class="subtitle orange_text subtitle_adress">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29</h3>
                         <div class="contacts">
-                            <img src="icon/mail.svg" alt="svg" class="mail_icon">
-                            <img src="icon/inst.svg" alt="svg" class="inst">
+                            <a href="#"><img src="icon/mail.svg" alt="svg" class="mail_icon"></a>
+                            <a href=""><img src="icon/inst.svg" alt="svg" class="inst"></a>
                         </div>
                     </div>
                     <div class="map">
@@ -430,16 +430,16 @@
             <div class="logo">IC "Repair Design Project"</div> 
             <nav>
                 <ul class="header-navigation">
-                    <li class="header-navigation_item"><a href="#">HOME</a></li>
-                    <li class="header-navigation_item"><a href="#">PROJECTS</a></li>
-                    <li class="header-navigation_item"><a href="#">MEASUREMENT</a></li>
-                    <li class="header-navigation_item"><a href="#">TEAM</a></li>
-                    <li class="header-navigation_item"><a href="#">REVIEWS</a></li>
-                    <li class="header-navigation_item"><a href="#">CONTACTS</a></li>
+                    <li class="header-navigation_item"><a href="#home">HOME</a></li>
+                    <li class="header-navigation_item"><a href="#projects">PROJECTS</a></li>
+                    <li class="header-navigation_item"><a href="#measurement">MEASUREMENT</a></li>
+                    <li class="header-navigation_item"><a href="#team">TEAM</a></li>
+                    <li class="header-navigation_item"><a href="#reviews">REVIEWS</a></li>
+                    <li class="header-navigation_item"><a href="#contacts">CONTACTS</a></li>
                 </ul>
             </nav>
             <a href="tel:+7 (928) 768-32-39" class="phone">+7 (928) 768-32-39</a>
-            <button class="button">Request a call</button>
+            <button class="button" form="Request_a_call">Request a call</button>
        </div>
     </footer>
 </body>
